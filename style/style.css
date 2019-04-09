@@ -1,0 +1,38 @@
+body{
+	width: 50%;
+	margin: 0 auto;
+	padding: 0px;
+	margin: 0px;
+	letter-spacing: 10px;
+	font-size: 200%;
+	text-align: center;
+	overflow: hidden;
+}
+
+#imgL, #imgR{
+	position: absolute;
+	width: 100%;
+	height: 1440px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#imgL{
+	background-image: url(../img/left.jpg);
+	z-index: 5;
+	width: 50%;
+}
+
+#imgR{
+	background-image: url(../img/right.jpg);
+	z-index: 0;
+}
+
+#slider{
+	width: 7px;
+	height: 100%;
+	background-color: #900;
+	position: absolute;
+	z-index: 10;
+	left: 50%;
+}
